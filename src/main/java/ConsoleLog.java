@@ -2,8 +2,7 @@ package main.java;
 
 public class ConsoleLog {
     public void RulesGame() {
-        System.out.println("————————————————————————————————————————————\n" +
-                "Начало игры!\n" +
+        System.out.println("Начало игры!\n" +
                 "В начале игры на столе лежит 20 спичек.\n" +
                 "Игроки ходят по очереди, убирая на выбор 1, 2 или 3 спички.\n" +
                 "Проигравшим считается тот, кто возьмет со стола последнюю спичку.");
@@ -15,8 +14,7 @@ public class ConsoleLog {
 
     public void outputComputerRunning(int numberOfMatchesByComputer) {
         System.out.println("Ход компьютера:\n" +
-                "Количество спичек выбранное компьютером = "
-                + numberOfMatchesByComputer);
+                "Количество спичек выбранное компьютером = " + numberOfMatchesByComputer);
     }
 
     public void EnterPlayerNumber() {
@@ -29,7 +27,6 @@ public class ConsoleLog {
 
     public void stopGame() {
         System.out.println("Вы забирайте последнюю спичку и проигрывайте!\n" +
-                            "Конец игры.\n" +
-                            "————————————————————————————————————————————");
+                            "Конец игры.\n");
     }
 }
